@@ -4,7 +4,7 @@ Site d'annonces de livres entre particuliers
 # BookMarket 
 
 BookMarket c'est un site où tu peux vendre et acheter des livres 
-entre particuliers, tu postes une annonce, puis si l'acheteur et le vendeur sont ok, vous vous mettez d'accord et vous vous retrouvez en vrai pour échanger le livre !
+entre particuliers, tu postes une annonce, puis si un acheteur est intéressé, vous vous mettez d'accord et vous convenez d'un lieu pour une remise en main propre !
 
 
 ## Comment installer le projet
