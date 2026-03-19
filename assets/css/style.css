@@ -1,0 +1,67 @@
+/* ========================================
+   BOOKMARKET - Feuille de style personnalisée
+   Surcharge les styles Bootstrap
+======================================== */
+
+/* --- Couleurs principales --- */
+:root {
+    --couleur-principale: #6B3F1F; /* marron foncé */
+    --couleur-secondaire: #C68642; /* marron clair */
+    --couleur-fond: #F5E6D3; /* beige clair */
+    --couleur-texte: #3E2007; /* marron très foncé */
+}
+
+/* --- Fond général de la page --- */
+body {
+    background-color: var(--couleur-fond);
+    color: var(--couleur-texte);
+}
+
+/* --- Navbar --- */
+.navbar {
+    background-color: var(--couleur-principale) !important;
+}
+
+/* --- Boutons principaux --- */
+.btn-primary {
+    background-color: var(--couleur-principale) !important;
+    border-color: var(--couleur-principale) !important;
+}
+
+/* --- Boutons au survol --- */
+.btn-primary:hover {
+    background-color: var(--couleur-secondaire) !important;
+    border-color: var(--couleur-secondaire) !important;
+}
+
+/* --- Cartes des annonces --- */
+.card {
+    border: 1px solid var(--couleur-secondaire);
+    border-radius: 10px;
+    transition: transform 0.2s; /* animation légère */
+}
+
+/* --- Carte au survol --- */
+.card:hover {
+    transform: translateY(-5px); /* légère élévation */
+    box-shadow: 0 4px 15px rgba(107, 63, 31, 0.2);
+}
+
+/* --- Footer --- */
+footer {
+    background-color: var(--couleur-principale) !important;
+}
+
+/* --- Titres --- */
+h1, h2, h3 {
+    color: var(--couleur-principale);
+}
+
+/* --- Liens --- */
+a {
+    color: var(--couleur-principale);
+}
+
+a:hover {
+    color: var(--couleur-secondaire);
+}
